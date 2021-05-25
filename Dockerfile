@@ -4,4 +4,4 @@ COPY ./configuration /etc/asterisk
 
 WORKDIR /etc/asterisk
 
-CMD ["asterisk", "-vvvvvvdddddgc"]
+CMD ["asterisk", "-vvvvvvdddddgc"] 

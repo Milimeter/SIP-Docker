@@ -11,4 +11,4 @@ run:
 	-p 5060:5060/udp \
 	-p 5060:5060/tcp \
 	-p 30000-30100:30000-30100/udp \
-	-v ${CWD}/configuration:/etc/asterisk -it asterisk16
+	-v ${CWD}/configuration:/etc/asterisk -it asterisk16 
